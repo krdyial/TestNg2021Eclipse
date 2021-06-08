@@ -2,16 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-09T00:05:44 CEST" name="Default suite" finished-at="2021-06-09T00:05:47 CEST" duration-ms="3438">
+  <suite started-at="2021-06-09T00:27:59 CEST" name="Default suite" finished-at="2021-06-09T00:28:06 CEST" duration-ms="6735">
     <groups>
     </groups>
-    <test started-at="2021-06-09T00:05:44 CEST" name="Default test" finished-at="2021-06-09T00:05:47 CEST" duration-ms="3438">
-      <class name="com.eclipsetestNG.AmazonTask">
-        <test-method signature="amazonTask()[pri:0, instance:com.eclipsetestNG.AmazonTask@671a5887]" started-at="2021-06-09T00:05:44 CEST" name="amazonTask" finished-at="2021-06-09T00:05:47 CEST" duration-ms="3417" status="PASS">
+    <test started-at="2021-06-09T00:27:59 CEST" name="Default test" finished-at="2021-06-09T00:28:06 CEST" duration-ms="6735">
+      <class name="com.eclipsetestNG.FirstTestBaseClass">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.eclipsetestNG.FirstTestBaseClass@7e9131d5]" started-at="2021-06-09T00:27:59 CEST" name="setUp" finished-at="2021-06-09T00:28:01 CEST" duration-ms="1841" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- amazonTask -->
-      </class> <!-- com.eclipsetestNG.AmazonTask -->
+        </test-method> <!-- setUp -->
+        <test-method signature="test1()[pri:0, instance:com.eclipsetestNG.FirstTestBaseClass@7e9131d5]" started-at="2021-06-09T00:28:01 CEST" name="test1" finished-at="2021-06-09T00:28:01 CEST" duration-ms="692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.eclipsetestNG.FirstTestBaseClass@7e9131d5]" started-at="2021-06-09T00:28:01 CEST" name="tearDown" finished-at="2021-06-09T00:28:06 CEST" duration-ms="4180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.eclipsetestNG.FirstTestBaseClass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
