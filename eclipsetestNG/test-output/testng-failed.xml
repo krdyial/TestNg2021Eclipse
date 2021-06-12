@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.eclipsetestNG.UploadFileTest">
+      <class name="com.eclipsetestNG.ExplicitWait02">
         <methods>
-          <include name="uploadFileTest"/>
+          <include name="enableButton"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.eclipsetestNG.UploadFileTest -->
+      </class> <!-- com.eclipsetestNG.ExplicitWait02 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
