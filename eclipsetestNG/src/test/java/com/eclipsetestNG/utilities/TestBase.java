@@ -23,7 +23,7 @@ public abstract class TestBase {
 		WebDriverManager.edgedriver().setup();
 		driver= new EdgeDriver();
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
 	}
 	
