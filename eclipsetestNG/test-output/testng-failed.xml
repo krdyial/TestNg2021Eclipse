@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.eclipsetestNG.ExplicitWait02">
+      <class name="com.eclipsetestNG.JsExecuter">
         <methods>
-          <include name="enableButton"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
+          <include name="jsExecution"/>
         </methods>
-      </class> <!-- com.eclipsetestNG.ExplicitWait02 -->
+      </class> <!-- com.eclipsetestNG.JsExecuter -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
